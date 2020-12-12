@@ -22,5 +22,4 @@
     grid-template-columns: var(--side-gap) 1fr var(--side-gap);
     font-family: var(--f-reg);
     color: var(--c-midnight);
-    padding-right: 100px;
 }
