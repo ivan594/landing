@@ -8,7 +8,6 @@
 @import './benefits.css';
 
 .mainWrapper {
-    --side-gap: 92px;
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
