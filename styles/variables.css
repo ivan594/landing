@@ -1,0 +1,13 @@
+:root {
+    --f-reg: 'OSReg';
+    --f-bold: 'OSBold';
+    --f-light: 'OSLight';
+    --f-rbold: 'RBold';
+    --f-rlight: 'RLight';
+    --f-rregular: 'RRegular';
+
+  
+    --c-white: #FFFFFF;
+    --c-midnight: #001A34;
+    --c-ozon-blue: #005BFF;
+  }
