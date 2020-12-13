@@ -1,16 +1,16 @@
 .courses {
-    grid-area: courses;
-    max-height: 500px;
-    max-width: 1600px;
-    padding: 40px 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 150px;
-  }
+  grid-area: courses;
+  max-height: 500px;
+  max-width: 1600px;
+  padding: 40px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+}
 
   .courses__container {
     display: flex;

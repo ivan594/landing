@@ -20,7 +20,7 @@
     '. heroSecond .'
     '. benefits .'
     'request request request'
-    'footer footer footer';                
+    '. footer .';                
     grid-template-columns: 92px 1fr 92px;
     font-family: var(--f-reg);
     color: var(--c-midnight);
