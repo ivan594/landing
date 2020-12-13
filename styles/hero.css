@@ -4,19 +4,21 @@
   min-height: 708px;
   background: center center no-repeat;
   background-size: cover;
+  margin-left: 92px;
+  margin-right: 92px;
 }
 
 .hero--main {
   grid-area: heroMain;
   background-image: url(../img/hero-main-image.jpg);
-  max-width: 1600px;
+  /* width: 1200px; */
 }
 
 .hero--second {
   grid-area: heroSecond;
   justify-content: flex-end;
   background-image: url(../img/hero-second-image.jpg);
-  max-width: 1600px;
+  /* max-width: 1600px; */
 }
 
 .hero__info {

@@ -10,7 +10,7 @@
 .footerMainLogo {
     width: 181px;
     height: 58px;
-    margin-left: 92px;
+    /* margin-left: 92px; */
 }
 
 .footerText {
@@ -29,6 +29,6 @@
 .footerOzonLogo {
     width: 107px;
     height: 23px;
-    margin-right: 92px;
+    /* margin-right: 92px; */
 }
 

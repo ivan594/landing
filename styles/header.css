@@ -4,9 +4,9 @@
     justify-content: space-between;
     align-items: center;
     min-height: 124px;
-    max-width: 1600px;
-    /* padding-left: 200px;
-    margin-right: 200px; */
+    /* max-width: 1600px; */
+    margin-left: 92px;
+    margin-right: 92px;
 }
 
 .header__navigation {
