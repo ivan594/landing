@@ -5,8 +5,8 @@
     align-items: center;
     min-height: 124px;
     max-width: 1600px;
-    padding-left: 200px;
-    margin-right: 200px;
+    /* padding-left: 200px;
+    margin-right: 200px; */
 }
 
 .header__navigation {

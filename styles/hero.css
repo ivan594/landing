@@ -2,12 +2,8 @@
   display: flex;
   align-items: center;
   min-height: 708px;
-  /* padding: 0 120px; */
   background: center center no-repeat;
   background-size: cover;
-  max-width: 1600px;
-  margin-left: 200px;
-  margin-right: 200px;
 }
 
 .hero--main {
@@ -29,7 +25,7 @@
   flex-direction: column;
   max-width: 550px;
   color: var(--c-white);
-  margin-left: 150px;
+  margin-left: 120px;
 }
   
   .hero__infoTitle {
