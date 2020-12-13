@@ -11,6 +11,7 @@
 
 .mainWrapper {
     width: 100%;
+    max-width: 1600px;
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
@@ -21,7 +22,7 @@
     '. benefits .'
     'request request request'
     'footer footer footer';                
-    grid-template-columns: var(--side-gap) 1fr var(--side-gap);
+    grid-template-columns: 30px 1fr 100px;
     font-family: var(--f-reg);
     color: var(--c-midnight);
 }
