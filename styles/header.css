@@ -1,10 +1,11 @@
 .header {
     grid-area: header;
-    max-width: 1600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 124px;
+    max-width: 1600px;
+    padding-left: 200px;
 }
 
 .header__navigation {
