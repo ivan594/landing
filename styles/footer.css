@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    grid-area: footer;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 220px;
+}
+
+.footerMainLogo {
+    padding-left: 92px;
+    width: 181px;
+    height: 58px;
+}
+
+.footerText {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--f-rlight);
+    width: 432px;
+    height: 60px;
+}
+
+.footerIcon {
+    width: 181px;
+    height: 37px;
+}
+
+.footerOzonLogo {
+    padding-right: 92px;
+    width: 107px;
+    height: 23px;
+}
+
