@@ -9,14 +9,14 @@
 .hero--main {
   grid-area: heroMain;
   background-image: url(../img/hero-main-image.jpg);
-  max-width: 1600px;
+  /* max-width: 1600px; */
 }
 
 .hero--second {
   grid-area: heroSecond;
   justify-content: flex-end;
   background-image: url(../img/hero-second-image.jpg);
-  max-width: 1600px;
+  /* max-width: 1600px; */
 }
 
 .hero__info {
