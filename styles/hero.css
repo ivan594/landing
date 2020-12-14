@@ -16,7 +16,6 @@
   grid-area: heroSecond;
   justify-content: flex-end;
   background-image: url(../img/hero-second-image.jpg);
-  /* max-width: 1600px; */
 }
 
 .hero__info {

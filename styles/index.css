@@ -9,8 +9,11 @@
 @import './request.css';
 @import './footer.css';
 
+
+
 .mainWrapper {
     width: 100%;
+    /* max-width: 1600px; */
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
