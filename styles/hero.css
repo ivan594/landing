@@ -2,25 +2,20 @@
     display: flex;
     align-items: center;
     min-height: 708px;
-    /* padding: 0 120px; */
+    padding: 0 120px;
     background: center center no-repeat;
     background-size: cover;
-    max-width: 1600px;
-    margin-left: 200px;
-    margin-right: 200px;
   }
 
   .hero--main {
     grid-area: heroMain;
     background-image: url(../img/hero-main-image.jpg);
-    max-width: 1600px;
   }
 
   .hero--second {
     grid-area: heroSecond;
     justify-content: flex-end;
     background-image: url(../img/hero-second-image.jpg);
-    max-width: 1600px;
   }
 
   .hero__info {
