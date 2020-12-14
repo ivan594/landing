@@ -9,7 +9,6 @@
 .hero--main {
   grid-area: heroMain;
   background-image: url(../img/hero-main-image.jpg);
-  /* max-width: 1600px; */
 }
 
 .hero--second {
