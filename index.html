@@ -11,7 +11,7 @@
 
         <header class="header">
             <div class="header__mainLogo">
-                <img src="img/logo.jpg" alt="">
+                <img class="header__mainLogoImage" src="img/logo.jpg" alt="">
             </div>
             <nav class="header__navigation">
                 <a href="" class="header__navigationLink">Наши курсы</a>
@@ -19,6 +19,9 @@
                 <a href="" class="header__navigationLink">Оставить заявку</a>
             </nav>
             <div class="header__tagline">Это вам не школа!</div>
+            <!-- <div class="header__menuButton">
+                <img src="./img/header-menu-button.svg" alt="">
+            </div> -->
         </header>
 
         <section class="hero hero--main">
@@ -39,22 +42,28 @@
             <h2 class="courses__title">Наши курсы</h2>
             <div class="courses__container">
                 <div class="course course__business">
-                    <img src="./img/courses-first-image.jpg" alt="">
-                    <p class="courseTitle">Бизнес-аналитика</first-imagep>
-                    <p class="courseText">Изучение основных инструментов и механизмов бизнес-аналитики</p>
-                    <a href="">Узнать больше</a>
+                    <div class="courses__courseImage courses__courseImage--bs"></div>
+                    <div class="courses__courseInfo">
+                        <p class="courseTitle">Бизнес-аналитика</p>
+                        <p class="courseText">Изучение основных инструментов и механизмов бизнес-аналитики</p>
+                        <a href="#" class="courses__courseLink">Узнать больше</a>
+                    </div>
                 </div>
                 <div class="course course__python">
-                    <img src="./img/courses-second-image.jpg" alt="">
-                    <p class="courseTitle">Python 18+</p>
-                    <p class="courseText">Основы программирования и знакомство с возможностями языка Python</p>
-                    <a href="">Узнать больше</a>
+                    <div class="courses__courseImage courses__courseImage--bs"></div>
+                    <div class="courses__courseInfo">
+                        <p class="courseTitle">Python 18+</p>
+                        <p class="courseText">Основы программирования и знакомство с возможностями языка Python</p>
+                        <a href="#" class="courses__courseLink">Узнать больше</a>
+                    </div>
                 </div>
                 <div class="course course__frontend">
-                    <img src="./img/courses-third-image.jpg" alt="">
-                    <p class="courseTitle">Frontend-разработчик</p>
-                    <p class="courseText">Курс для новичков, которые хотят начать свой путь в Frontend-разработке</p>
-                    <a href="">Узнать больше</a>
+                    <div class="courses__courseImage courses__courseImage--fe"></div>
+                    <div class="courses__courseInfo">
+                        <p class="courseTitle">Frontend-разработчик</p>
+                        <p class="courseText">Курс для новичков, которые хотят начать свой путь в Frontend-разработке</p>
+                        <a href="#" class="courses__courseLink">Узнать больше</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -73,7 +82,7 @@
             </div>
         </section>
 
-        <section class="benefits">
+        <!-- <section class="benefits">
             <div class="benefits__title">Преимущества</div>
             <div class="benefits__container">
                 <div class="benefit benefit__business">
@@ -97,7 +106,7 @@
                     <p class="benefitText">Поддержка преподавателя и куратора на всех этапах обучения</p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="request">
             <h2 class="request__header">

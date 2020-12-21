@@ -12,6 +12,7 @@
 
 
 .mainWrapper {
+    --side-gap: 92px;
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -23,7 +24,14 @@
     '. benefits .'
     'request request request'
     'footer footer footer';                
-    grid-template-columns: 92px 1fr 92px;
+    grid-template-columns: var(--side-gap) 1fr var(--side-gap);
     font-family: var(--f-reg);
     color: var(--c-midnight);
+}
+
+@media (max-width: 1024px) {
+    .mainWrapper {
+        --side-gap: 46px;
+
+    }
 }

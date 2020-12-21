@@ -1,39 +1,61 @@
 .courses {
-    display: flex;
     grid-area: courses;
-    max-height: 500px;
-    max-width: 1600px;
-    padding: 40px 0;
+    width: 100%;
+    display: flex; 
+    max-height: 655px;
+    padding: 80px 0;
     box-sizing: border-box;
     flex-direction: column;
     align-items: center;
-    /* margin-left: 150px;
-    margin-right: 150px; */
-    margin-bottom: 150px;
-  }
-
-  .courses__container {
-    display: flex;
-    align-items: center;
+    overflow-y: auto;
   }
 
   .courses__title {
-    display: flex;
     max-height: 54px;
-    max-width: 1176px;
     font-family: var(--f-rbold);
-    font-size: 45px;
+    font-size: 46px;
+  }
+
+  .courses__container {
+    width: 100%;
+    /* padding: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
   }
 
   .course {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin: 20px;
+    flex-shrink: 0;
+    min-height: 376px;
     width: 376px;
-    height: 376px;
-    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
-    border-radius: 10px;
+    margin-right: 24px;
+    border: 1px solid var(--c-mystic);
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 20px var(--c-mystic);
+  }
+
+  .course:last-child {
+    margin-right: 0;
+  }
+
+  .courses__courseImage {
+    height: 173px;
+    width: 100%;
+    background: center cover no-repeat;
+  }
+  
+  .courses__courseImage--bs {
+    background-image: url(../img/courses-first-image.jpg);
+  }
+  
+  .courses__courseImage--py {
+    background-image: url(../img/courses-second-image.jpg);
+  }
+  
+  .courses__courseImage--fe {
+    background-image: url(../img/courses-third-image.jpg);
   }
 
   .courseTitle {
@@ -48,7 +70,7 @@
     margin-left: 15px;
   }
 
-  a {
+  .courses__courseLink {
     font-size: 18px;
     line-height: 20px;
     text-decoration: none;
@@ -59,3 +81,28 @@
     margin-bottom: 18px;
     margin-left: 15px;
   }
+
+
+  /* @media (max-width: 1200px) {
+    .courses__container {
+      height: 430px;
+    }
+  
+    .course {
+      width: 276px;
+      height: 100%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .courses__container {
+      height: 300px;
+      justify-content: flex-start;
+    }
+
+    .course {
+      width: 276px;
+      height: 100%;
+    }
+  } */
+ 
