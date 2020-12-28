@@ -16,6 +16,13 @@
     line-height: 20px;
 }
 
+.header__menuButton {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 .header__navigationLink {
     font-size: 16px;
     line-height: 20px;
@@ -28,3 +35,41 @@
     line-height: 26px;
     font-family: var(--f-bold);
 }
+
+@media (max-width: 1200px) {
+    .header__navigation {
+        max-width: 440px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header__tagline {
+        display: none;
+    }
+
+    .header {
+        padding: 0px 16px;
+    }
+}
+
+@media (max-width: 720px) {
+    .header {
+        min-height:76px;
+    }
+    
+    .header__navigation {
+        display: none;
+    }
+
+    .header__mainLogoImage {
+        width: 120px;
+        height: 38px;
+    }
+
+    .header__menuButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
