@@ -14,13 +14,69 @@
     cursor: pointer;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 360px) {
     .button {
       width: 100%;
+      margin-right: 16px;
+      margin-left: 16px;
       width: 328px;
       height: 56px;
       font-size: 18px;
-      line-height: 24;
+      line-height: 24px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .button {
+      width: 100%;
+      margin-right: 16px;
+      margin-left: 16px;
+      width: 288px;
+      height: 56px;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .button__forRequest {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    padding: 22px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    line-height: 20px;
+    background: var(--c-ozon-blue);
+    color: var(--c-white);
+    outline: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 360px) {
+    .button__forRequest { 
+      width: 100%;
+      margin-right: 16px;
+      margin-left: 16px;
+      width: 328px;
+      height: 64px;
+      font-size: 22px;
+      line-height: 20px;
+      margin-top: 440px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .button__forRequest { 
+      width: 100%;
+      margin-right: 16px;
+      margin-left: 16px;
+      width: 288px;
+      height: 64px;
+      font-size: 20px;
+      line-height: 18px;
+      margin-top: 440px;
     }
   }
 

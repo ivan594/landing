@@ -13,6 +13,10 @@
     margin-left: 92px;
 }
 
+.textNotSchool {
+    display: none;
+}
+
 .footerText {
     font-size: 16px;
     line-height: 20px;
@@ -32,3 +36,125 @@
     margin-right: 92px;
 }
 
+@media (max-width: 1200px) {
+    .footerIcon {
+        display: none;
+    }
+    }
+
+@media (max-width: 1000px) {
+    .footerOzonLogo {
+        display: none;
+    }
+    }
+
+@media (max-width: 720px) {
+    .footerText {
+        width: 320px;
+        height: 60px;
+        margin-left: 30px;
+    }
+    }
+
+@media (max-width: 360px) {
+    .footer {
+        width: 360px;
+        height: 437px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .footerMainLogo {
+        margin-left: 0;
+        width: 156px;
+        height: 50px;
+    }
+
+    .textNotSchool {
+        display: flex;
+        text-align: center;
+        width: 204px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+        font-family: var(--f-rbold);
+        margin-top: 40px;
+    }
+
+    .footerText {
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: var(--f-rlight);
+        width: 328px;
+        height: 80px;
+        margin-top: 38px;
+    }
+
+    .footerIcon {
+        width: 181px;
+        height: 37px;
+        display: flex;
+        margin-top: 36px;
+    }
+
+    .footerOzonLogo {
+        display: flex;
+        width: 107px;
+        height: 23px;
+        margin-right: 0px;
+        margin-top: 36px;
+    }
+    }
+
+
+    @media (max-width: 320px) {
+        .footer {
+            width: 320px;
+            height: 437px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;    
+        }
+    
+        .footerMainLogo {
+            margin-left: 0;
+            width: 156px;
+            height: 50px;
+        }
+    
+        .textNotSchool {
+            display: flex;
+            text-align: center;
+            width: 204px;
+            height: 26px;
+            font-size: 22px;
+            line-height: 26px;
+            font-family: var(--f-rbold);
+            margin-top: 40px;
+        }
+    
+        .footerText {
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
+            font-family: var(--f-rlight);
+            width: 270px;
+            height: 80px;
+            margin-top: 38px;
+        }
+    
+        .footerIcon {
+            display: flex;
+            margin-top: 36px;
+        }
+    
+        .footerOzonLogo {
+            display: flex;
+            width: 107px;
+            height: 23px;
+            margin-right: 0px;
+            margin-top: 36px;
+        }
+        }

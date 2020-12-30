@@ -54,7 +54,8 @@
 
 @media (max-width: 720px) {
     .header {
-        min-height:76px;
+        max-width: 720px;
+        min-height: 76px;
     }
     
     .header__navigation {
@@ -68,8 +69,6 @@
 
     .header__menuButton {
         display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
 

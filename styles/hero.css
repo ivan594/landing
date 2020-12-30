@@ -1,30 +1,18 @@
 .hero {
   display: flex;
   align-items: center;
-  /* max-width: 1600px; */
+  max-width: 1600px;
   min-height: 708px;
   padding: 0 120px;
   background: center center no-repeat;
   background-size: cover;
 }
 
+/* hero main */
+
 .hero--main {
   grid-area: heroMain;
-  
-    /* max-width: 1600px;
-    max-height: 100%; */
-    background-image: url(../img/hero-main-image.jpg);
- 
-}
-
-/* .hero__image {
-  display: none;
-} */
-
-.hero--second {
-  grid-area: heroSecond;
-  justify-content: flex-end;
-  background-image: url(../img/hero-second-image.jpg);
+  background-image: url(../img/hero-main-image.jpg);
 }
 
 .hero__info {
@@ -48,24 +36,94 @@
     line-height: 32px;
   }
 
-  @media (max-width: 1200px) {
-    .hero {
-      max-width: 1100px;
-      padding: 50px;
+  .gradient__main {
+    display: none;
+  }
+
+
+  /* hero second */
+
+  .hero--second {
+    grid-area: heroSecond;
+    justify-content: flex-end;
+    background-image: url(../img/hero-second-image.jpg);
+  }
+
+  .hero__infoSecond {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 550px;
+    color: var(--c-white);
+  }
+    
+    .hero__infoTitleSecond {
+      margin: 0 0 16px;
+      font-family: var(--f-bold);
+      font-size: 58px;
+      line-height: 68px;
     }
     
+    .hero__infoTextSecond {
+      margin: 0 0 32px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  
+    .gradient__second {
+      display: none;
+    }
+
+
+
+
+  @media (max-width: 1200px) {
+    .hero {
+      max-width: 1200px;
+      padding: 50px;
+    }
   }
 
   @media (max-width: 1000px) {
     .hero {
-      max-width: 900px;
+      max-width: 1000px;
     }
-    
+  }
+
+  @media (max-width: 720px) {
+    .hero {
+      max-width: 720px;
+    }
   }
 
   @media (max-width: 360px) {
     .hero {
       max-width: 360px;
+      padding: 0px;
+    }
+
+      /* hero main */
+
+    .hero--main {
+      background-image: url(../img/hero-main-image-little.jpg);
+      background-color: #001A34;
+      max-width: 360px;
+      max-height: 702px;
+      background-size: contain;
+      background-position: top;
+    }    
+
+    .hero__info {
+      margin-top: 400px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .gradient__main {
+      display: flex;
+      background-image: linear-gradient(180deg, rgba(0, 26, 52, 0) 0%, #001A34 100%);
+      width: 360px;
+      height: 164px;
     }
 
     .hero__infoTitle {
@@ -73,6 +131,9 @@
       line-height: 42px;
       width: 328px;
       height: 42px;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-top: 20px;
     }
 
     .hero__infoText {
@@ -80,28 +141,152 @@
       height: 104px;
       font-size: 18px;
       line-height: 26px;
-    }
-    
-    .hero__info {
-      max-width: 328px;
+      margin-left: 16px;
+      margin-right: 16px;
     }
 
-    .hero__info {
-      width: 328px;
-      height: 250px;
+
+
+/* hero second */
+
+    .hero--second {
+      background-image: url(../img/hero-second-image-little.jpg);
+      background-color: #CCD4DB;
+      max-width: 360px;
+      max-height: 718px;
+      background-size: contain;
+      background-position: top;
+    }  
+
+    .hero__infoSecond {
+      margin-top: 450px;
+      margin-bottom: 56px;
+      width: 100%;
+      height: 100%;
     }
+
+    .gradient__second {
+      display: flex;
+      background-image: linear-gradient(180deg, rgba(204, 212, 219, 0) 0%, #CCD4DB 100%);
+      width: 360px;
+      height: 164px;
+    }
+
+    .hero__infoTitleSecond {
+      font-size: 36px;
+      line-height: 42px;
+      width: 328px;
+      height: 84px;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-top: 20px;
+    }
+
+    .hero__infoTextSecond {
+      width: 328px;
+      height: 78px;
+      font-size: 18px;
+      line-height: 26px;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-bottom: 50px;
+    }
+  }
+
+
+  @media (max-width: 320px) {
+    .hero {
+      max-width: 320px;
+      padding: 0px;
+    }
+
+      /* hero main */
 
     .hero--main {
-      height: 360px;
+      background-image: url(../img/hero-main-image-little.jpg);
+      background-color: #001A34;
+      max-width: 320px;
+      max-height: 702px;
+      background-size: contain;
+      background-position: top;
+    }    
+
+    .hero__info {
+      margin-top: 320px;
       width: 100%;
-      background: center cover no-repeat;
+      height: 100%;
+    }
+  
+    .gradient__main {
+      display: flex;
+      background-image: linear-gradient(180deg, rgba(0, 26, 52, 0) 0%, #001A34 100%);
+      width: 320px;
+      height: 164px;
+      margin-bottom: 20px;
     }
 
-    /* .hero__image {
-      width: 360px;
-      height: 360px;
-      background-image: url(../img/hero-main-image.jpg);
-    } */
-    
+    .hero__infoTitle {
+      font-size: 35px;
+      line-height: 38px;
+      width: 288px;
+      height: 42px;
+      margin-left: 16px;
+      margin-right: 16px;
+      
+    }
+
+    .hero__infoText {
+      width: 288px;
+      height: 104px;
+      font-size: 18px;
+      line-height: 26px;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+
+/* hero second */
+
+    .hero--second {
+      background-image: url(../img/hero-second-image-little.jpg);
+      background-color: #CCD4DB;
+      max-width: 320px;
+      max-height: 718px;
+      background-size: contain;
+      background-position: top;
+    }  
+
+    .hero__infoSecond {
+      margin-top: 390px;
+      margin-bottom: 56px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .gradient__second {
+      display: flex;
+      background-image: linear-gradient(180deg, rgba(204, 212, 219, 0) 0%, #CCD4DB 100%);
+      width: 320px;
+      height: 164px;
+    }
+
+    .hero__infoTitleSecond {
+      font-size: 35px;
+      line-height: 38px;
+      width: 288px;
+      height: 84px;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-top: 20px;
+    }
+
+    .hero__infoTextSecond {
+      width: 288px;
+      height: 78px;
+      font-size: 18px;
+      line-height: 26px;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-bottom: 50px;
+    }
   }
 

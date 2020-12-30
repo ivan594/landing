@@ -25,7 +25,9 @@
     max-width: 1176px;
     font-family: var(--f-rbold);
     font-size: 46px;
+    line-height: 54px;
     margin-bottom: 50px;
+    margin-top: 30px;
   }
 
   .benefit {
@@ -40,7 +42,6 @@
     width: 240px;
     min-height: 184px;
     line-height: 20px;
-    /* overflow: hidden; */
   }
 
   .benefitTitle {
@@ -98,3 +99,12 @@
     }
   }
   
+  @media (max-width: 360px) {
+    .benefits__title {
+      max-height: 42px;
+      max-width: 328px;
+      font-size: 36px;
+      line-height: 42px;
+      
+    }
+  }
