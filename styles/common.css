@@ -12,33 +12,37 @@
     color: var(--c-white);
     outline: none;
     cursor: pointer;
-  }
+}
 
-  @media (max-width: 360px) {
+.button:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 360px) {
     .button {
-      width: 100%;
-      margin-right: 16px;
-      margin-left: 16px;
-      width: 328px;
-      height: 56px;
-      font-size: 18px;
-      line-height: 24px;
+        width: 100%;
+        margin-right: 16px;
+        margin-left: 16px;
+        width: 328px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 24px;
     }
-  }
+}
 
-  @media (max-width: 320px) {
+@media (max-width: 320px) {
     .button {
-      width: 100%;
-      margin-right: 16px;
-      margin-left: 16px;
-      width: 288px;
-      height: 56px;
-      font-size: 18px;
-      line-height: 24px;
+        width: 100%;
+        margin-right: 16px;
+        margin-left: 16px;
+        width: 288px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 24px;
     }
-  }
+}
 
-  .button__forRequest {
+.button__forRequest {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -52,35 +56,39 @@
     color: var(--c-white);
     outline: none;
     cursor: pointer;
-  }
+}
 
-  @media (max-width: 360px) {
-    .button__forRequest { 
-      width: 100%;
-      margin-right: 16px;
-      margin-left: 16px;
-      width: 328px;
-      height: 64px;
-      font-size: 22px;
-      line-height: 20px;
-      margin-top: 440px;
+.button__forRequest:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 360px) {
+    .button__forRequest {
+        width: 100%;
+        margin-right: 16px;
+        margin-left: 16px;
+        width: 328px;
+        height: 64px;
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 440px;
     }
-  }
+}
 
-  @media (max-width: 320px) {
-    .button__forRequest { 
-      width: 100%;
-      margin-right: 16px;
-      margin-left: 16px;
-      width: 288px;
-      height: 64px;
-      font-size: 20px;
-      line-height: 18px;
-      margin-top: 440px;
+@media (max-width: 320px) {
+    .button__forRequest {
+        width: 100%;
+        margin-right: 16px;
+        margin-left: 16px;
+        width: 288px;
+        height: 64px;
+        font-size: 20px;
+        line-height: 18px;
+        margin-top: 440px;
     }
-  }
+}
 
-  .input {
+.input {
     display: flex;
     width: 100%;
     height: 56px;
@@ -90,21 +98,25 @@
     border-radius: 6px;
     font-size: 18px;
     line-height: 24px;
-  }
+}
 
-  input::placeholder {
-    color: var(--c-dark-space);
-  }
-
-  .input:focus {
+.input:focus {
     outline: none;
-  }
+}
 
-  .input--valid {
-    border-color:#B2BAC2;  
-  }
+input::placeholder {
+    color: var(--c-dark-space);
+}
 
-  .select {
+.input--valid {
+    border-color: #B2BAC2;
+}
+
+.input:focus {
+    box-shadow: 2px 2px 20px var(--c-mystic);
+}
+
+.select {
     position: relative;
     display: flex;
     box-sizing: border-box;
@@ -119,14 +131,14 @@
     line-height: 24px;
     cursor: pointer;
     background-color: var(--c-white);
-  }
+}
 
-  .select__icon--opened {
+.select__icon--opened {
     transform: rotate(180deg);
     flex-grow: 0;
-  }
+}
 
-  .select__dropdown {
+.select__dropdown {
     position: absolute;
     display: none;
     top: 60px;
@@ -135,47 +147,43 @@
     width: 100%;
     max-height: 240px;
     box-shadow: 2px 2px 20px var(--c-mystic);
-    border-radius: 6px;   
+    border-radius: 6px;
     padding: 0px;
     margin: 0px;
     list-style-type: none;
     overflow-y: auto;
-  }
-  
+}
 
-  .select__dropdownItem {
+.select__dropdownItem {
     display: flex;
     align-items: center;
     height: 48px;
     padding: 12px 20px;
     box-sizing: border-box;
     border-bottom: 1px solid #E9EFF1;
-  }
+}
 
-  .select__dropdownItem:hover {
+.select__dropdownItem:hover {
     background-color: var(--c-ozon-blue-10);
-  }
+}
 
-  .select__dropdownItem--active {
+.select__dropdownItem--active {
     background-color: var(--c-ozon-blue-50);
-  }
+}
 
-  .select__dropdownItem:last-of-type {
+.select__dropdownItem:last-of-type {
     border-bottom: none;
-  }
+}
 
-  .request__header {
+.request__header {
     font-size: 46px;
     line-height: 54px;
     text-align: center;
     margin: 0 0 64px;
-  }
-  .request__form {
+}
+
+.request__form {
     max-width: 456px;
     width: 100%;
     margin-bottom: 64px;
-  }
-
-
-
-
+}
